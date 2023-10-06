@@ -1,0 +1,23 @@
+
+.main-body {
+    display: flex;
+}
+
+.main-child {
+    flex: 2 1;
+}  
+
+.main-child:first-child {
+    flex-grow: 4;
+    margin-left: 20px;
+    padding-right: 30px;
+} 
+
+.navbar-brand{
+    margin-left: 20px;
+}
+
+.delete-btn{
+    text-align: right;
+    padding-right: 10%;
+}
